@@ -6,10 +6,12 @@ import Card from "../components/Card.astro";
 <Layout title="Astro Website">
   <main>
     <h1>教務 <span class="text-gradient">年度末業務まとめ</span></h1>
-    <p class="instructions">
-      年度末業務のまとめ <code>src/pages</code>
-      <br />
-      <strong>Code Challenge:</strong>
+    <p class="instructions">      
+      <strong>あれ、いつまでだったけ？みたいな事を確認するWebSite:</strong>
+      <br>
+      <a href="https://sites.google.com/shikaoi.ed.jp/kennko-teacher/%E3%83%9B%E3%83%BC%E3%83%A0">健康観察ホーム</a>
+      <br>
+      <a href="https://classroom.google.com/u/0/c/MjMyMTA1MTYwNTc2">教員クラスルーム</a>
     </p>
     <ul role="list" class="link-card-grid">
       <Card
@@ -23,15 +25,15 @@ import Card from "../components/Card.astro";
         body="シリアル番号・パスワード・タッチペン番号などの確認・入力"
       />
       <Card
-        href="./syusseki"
-        title="時数集計と出席簿"
-        body="時数集計及び、出席簿については3月24日を目途に完了させましょう。"
-      />
-      <Card
         href="./sotugyo"
         title="卒業式"
         body="【令和4年度】第112回卒業式授与式（実施要項）"
       />
+      <Card
+        href="./syusseki"
+        title="新年度いろいろ"
+        body="新年度にかかわって"
+      />      
       <Card
         href="https://astro.build/chat/"
         title="astro build chat"
